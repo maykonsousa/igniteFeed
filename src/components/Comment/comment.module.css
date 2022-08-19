@@ -1,0 +1,80 @@
+.Container {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.Content{
+  flex: 1;
+}
+
+.ContentBox{
+  background-color: var(--gray-700);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.ContentBox header{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ContentBox header button{
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+  transition: color 0.2s;
+}
+
+.ContentBox header button:hover{
+  color: var(--red-500);
+}
+
+
+.Info strong{
+display: block;
+font-size: 0.875rem;
+line-height: 1.4;
+}
+
+.Info time{
+  display: block;
+  font-size: 0.75rem;
+  color: var(--gray-300);
+}
+
+.ContentBox p{
+  margin-top: 1rem;
+  font-size: 0.875rem;
+ 
+}
+
+.Container footer{
+  margin-top: 1rem; 
+}
+
+.Container footer button{
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.Container footer button:hover{
+  color: var(--green-300);
+}
+
+.Container footer button svg{
+  margin-right: 0.5rem;
+}
+
+.Container footer button span::before{
+  content:"\2022";
+  padding: 0 0.5rem;
+}

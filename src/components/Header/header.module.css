@@ -1,0 +1,18 @@
+.Container {
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.Logo {
+ height: 2rem;
+}
+
+.Title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--white);
+  margin-left: 1rem;
+}
